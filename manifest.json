@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Github Contri",
+    "description": "Testing",
+    "version": "1",
+    "author": "Bhumij Gupta",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://github.com/*",
+                "https://github.com/*"
+            ],
+            "js": [
+                "colorify.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
