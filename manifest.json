@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Github Contri",
     "description": "Testing",
-    "version": "1",
+    "version": "1.0.0",
     "author": "Bhumij Gupta",
     "content_scripts": [
         {
