@@ -9,6 +9,9 @@ A chrome extension which changes your contribution chart to green. Just a measur
 Seeing the partial empty contribution chart on GitHub always bugged me. In order to fill it up I started making foolish commits which reduced my efficiency and focus for more important tasks.
 In order to get over this distraction, and learn more about chrome extension I made this chrome extension which colors your entire Github Contribution page.
 
+## Demo
+
+
 ## Installation
 1. Clone the repository in your local file system.
 ```bash
@@ -16,7 +19,10 @@ git clone https://github.com/bhumijgupta/Github-contri.git
 ```
 2. Open chrome and navigate to [chrome://extensions](chrome://extensions/)
 3. Toggle on Developer mode
-4. Select Load Unpacked and navigate inside the clone repo
+4. Select Load Unpacked
+5. Navigate inside the clone repo and select OK
+6. **Voila** The extension is loaded!
+
 
 ## Future Goals
 - [ ] Add toggle switch to enable and disable extension
