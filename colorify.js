@@ -9,9 +9,20 @@ function colorify() {
     }
 }
 
-var btn = document.querySelector(".js-profile-editable-edit-button");
-// Check if it is the user profile by checking Edit profile button
-if (btn && btn.textContent === "Edit") {
-    colorify();
+function checkUser() {
+    var btn = document.querySelector(".js-profile-editable-edit-button");
+    // Check if it is the user profile by checking Edit profile button
+    if (btn && btn.textContent === "Edit") {
+        colorify();
+    }
 }
 
+function checkStatus() {
+    chrome.storage.sync.get(['config'], (result) => {
+        if (result.config.status == "enabled") {
+            checkUser();
+        }
+    })
+}
+
+checkStatus();
