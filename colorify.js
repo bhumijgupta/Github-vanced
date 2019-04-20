@@ -18,11 +18,11 @@ function checkUser() {
 }
 
 function checkStatus() {
-    chrome.storage.sync.get(['config'], (result) => {
-        if (result.config.status == "enabled") {
+    chrome.storage.sync.get(["config"], (result) => {
+        if (result.config.status === "enabled") {
             checkUser();
         }
-    })
+    });
 }
 
 checkStatus();

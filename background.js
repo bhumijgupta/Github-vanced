@@ -1,8 +1,8 @@
-const default_config = {
+const defaultConfig = {
   config: {
     status: "enabled"
   }
 };
 chrome.runtime.onInstalled.addListener(() => {
-  chrome.storage.sync.set(default_config, null);
+  chrome.storage.sync.set(defaultConfig, null);
 });

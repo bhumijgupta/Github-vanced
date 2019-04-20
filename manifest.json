@@ -2,13 +2,13 @@
     "manifest_version": 2,
     "name": "Github Contri",
     "description": "Don't get distracted by contribution chart on GitHub. Color it all green",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Bhumij Gupta",
     "icons": {
-        "16": "icon_16.png",
-        "32": "icon_32.png",
-        "48": "icon_48.png",
-        "128": "icon_128.png"
+        "16": "assets/icon_16.png",
+        "32": "assets/icon_32.png",
+        "48": "assets/icon_48.png",
+        "128": "assets/icon_128.png"
     },
     "background": {
         "scripts": ["background.js"],
