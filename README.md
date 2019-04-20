@@ -25,7 +25,7 @@ git clone https://github.com/bhumijgupta/Github-contri.git
 
 
 ## Future Goals
-- [ ] Add toggle switch to enable and disable extension
+- [x] Add toggle switch to enable and disable extension
 - [ ] Add Github Dark theme through the chrome extension
 
 ## Can I Contribute
