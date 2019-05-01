@@ -10,11 +10,11 @@
     }
 
     .switch {
-        position: relative;
+        position: absolute;
         display: inline-block;
         width: 50px;
         height: 28px;
-        margin-left: 30px;
+        left: 150px;
     }
 
     .switch input {
@@ -74,14 +74,19 @@
         display: inline-block;
         line-height: 28px;
         font-size: 1.2em;
-        width: 160px;
+        width: 200px;
     }
 </style>
 
 <body>
     <h2>Quick Settings</h2>
-    <span class="fullSwitch">Status:
-        <label class="switch">
+    <span class="fullSwitch">Color Contri:
+        <label class="switch" id="contri">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label><br>
+        Dark Mode:
+        <label class="switch" id="darkmode">
             <input type="checkbox">
             <span class="slider round"></span>
         </label>

@@ -19,7 +19,7 @@ function checkUser() {
 
 function checkStatus() {
     chrome.storage.sync.get(["config"], (result) => {
-        if (result.config.status === "enabled") {
+        if (result.config.contri === "enabled") {
             checkUser();
         }
     });
