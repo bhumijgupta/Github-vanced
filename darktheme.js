@@ -369,6 +369,30 @@ function enableTheme() {
         "}" +
         ".diffstat-summary strong {" +
         "color: #fff;" +
+        "}" +
+        ".form-control, .form-select {" +
+        "color: #fff;" +
+        "}" +
+        ".jump-to-field-active {" +
+        "color: #f1f8ff!important;" +
+        "}" +
+        ".markdown-body table {" +
+        "color: black;" +
+        "}" +
+        ".gh-header {" +
+        "background-color: #24292e;" +
+        "}" +
+        ".gh-header-meta {" +
+        "color: #ccc;" +
+        "}" +
+        ".discussion-sidebar-item {" +
+        "color: #fff;" +
+        "}" +
+        ".discussion-sidebar-heading {" +
+        "color: #ffffff;" +
+        "}" +
+        ".discussion-sidebar-item+.discussion-sidebar-item {" +
+        "border-top-color: #444d56;" +
         "}"
 
 
