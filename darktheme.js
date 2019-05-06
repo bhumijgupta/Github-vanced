@@ -393,6 +393,9 @@ function enableTheme() {
         "}" +
         ".discussion-sidebar-item+.discussion-sidebar-item {" +
         "border-top-color: #444d56;" +
+        "}" +
+        ".input-contrast:focus {" +
+        "background-color: #42474b;" +
         "}"
 
 
