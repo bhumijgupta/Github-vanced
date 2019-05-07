@@ -3,13 +3,13 @@
 
 # Github Vanced
 
-Don't get distracted by contribution chart on GitHub. Color it all green!!<br>
-A chrome extension which changes your contribution chart to green. Just a measure to prevent distraction.
+An ultimate browser extension to customize and streamline your GitHub experience with a lifetime promise of no ads and no data collection. 
 
-## Motivation
 
-Seeing the partial empty contribution chart on GitHub always bugged me. In order to fill it up I started making foolish commits which reduced my efficiency and focus for more important tasks.
-In order to get over this distraction, and learn more about chrome extension I made this chrome extension which colors your entire Github Contribution page.
+## Features
+* Website wide dark mode
+* Colors contribution chart to avoid distraction
+* Easy toggle switches to enable and disable features
 
 ## Demo
 
@@ -33,6 +33,7 @@ git clone https://github.com/bhumijgupta/Github-contri.git
 
 - [x] Add toggle switch to enable and disable extension
 - [x] Add Github Dark theme through the chrome extension
+- [ ] Resolve all bugs and launch stable version
 
 ## Can I Contribute
 
