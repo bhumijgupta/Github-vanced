@@ -1,5 +1,5 @@
 ![Github Vanced Logo](/assets/icon_128.png)<br>
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8fb8ceb65ea242c782704f77ea83da21)](https://www.codacy.com?utm_source=github.com&utm_medium=referral&utm_content=bhumijgupta/Github-contri&utm_campaign=Badge_Grade) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bhumijgupta/Github-contri.svg) ![GitHub issues](https://img.shields.io/github/issues/bhumijgupta/Github-contri.svg)![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bhumijgupta/Github-contri.svg)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8fb8ceb65ea242c782704f77ea83da21)](https://www.codacy.com?utm_source=github.com&utm_medium=referral&utm_content=bhumijgupta/Github-contri&utm_campaign=Badge_Grade) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bhumijgupta/Github-vanced.svg) ![GitHub issues](https://img.shields.io/github/issues/bhumijgupta/Github-vanced.svg) ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bhumijgupta/Github-vanced.svg)
 
 # Github Vanced
 
