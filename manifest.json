@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Github Contri",
+    "name": "Github Contri (beta)",
     "description": "Don't get distracted by contribution chart on GitHub. Color it all green",
-    "version": "1.1.0",
+    "version": "1.1.9",
     "author": "Bhumij Gupta",
     "icons": {
         "16": "assets/icon_16.png",
@@ -16,12 +16,12 @@
     },
     "content_scripts": [{
         "matches": ["http://github.com/*", "https://github.com/*"],
-        "js": ["colorify.js"],
+        "js": ["colorify.js", "darktheme.js"],
         "run_at": "document_end"
     }],
     "options_page": "popup.html",
     "browser_action": {
         "default_popup": "popup.html"
     },
-    "permissions": ["storage"]
+    "permissions": ["storage", "tabs"]
 }

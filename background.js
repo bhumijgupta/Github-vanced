@@ -1,6 +1,7 @@
 const defaultConfig = {
   config: {
-    status: "enabled"
+    contri: "enabled",
+    darkmode: "enabled"
   }
 };
 chrome.runtime.onInstalled.addListener(() => {

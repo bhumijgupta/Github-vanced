@@ -1,34 +1,78 @@
-btn = document.querySelector(".switch input");
-var curStatus = "disabled";
+contriBtn = document.querySelector("#contri input");
+darkBtn = document.querySelector("#darkmode input");
+githubBtn = document.querySelector("button");
+var contriStatus = "disabled";
+var darkStatus = "disabled";
 
 // checking current status of extension
 chrome.storage.sync.get(["config"], (result) => {
-    if (result.config.status === "enabled") {
+    if (result.config.contri === "enabled") {
         // if enabled then check the toggle
-        btn.checked = true;
-        curStatus = "enabled";
+        contriBtn.checked = true;
+        contriStatus = "enabled";
+    }
+    if (result.config.darkmode === "enabled") {
+        // if enabled then check the toggle
+        darkBtn.checked = true;
+        darkStatus = "enabled";
     }
 })
 
-btn.addEventListener("click", () => {
+contriBtn.addEventListener("click", () => {
     // disable toggle untill operation completes
-    btn.disabled = true;
+    contriBtn.disabled = true;
 
     // toggle states
-    if (curStatus === "enabled") {
-        btn.checked = false;
-        curStatus = "disabled";
+    if (contriStatus === "enabled") {
+        contriBtn.checked = false;
+        contriStatus = "disabled";
     } else {
-        btn.checked = true;
-        curStatus = "enabled";
+        contriBtn.checked = true;
+        contriStatus = "enabled";
     }
 
     chrome.storage.sync.set({
         config: {
-            status: curStatus
+            contri: contriStatus,
+            darkmode: darkStatus
         }
     }, () => {
         // enable button when operation completes
-        btn.disabled = false;
+        contriBtn.disabled = false;
     })
 });
+
+darkBtn.addEventListener("click", () => {
+    // disable toggle untill operation completes
+    darkBtn.disabled = true;
+
+    // toggle states
+    if (darkStatus === "enabled") {
+        darkBtn.checked = false;
+        darkStatus = "disabled";
+    } else {
+        darkBtn.checked = true;
+        darkStatus = "enabled";
+    }
+
+    chrome.storage.sync.set({
+        config: {
+            contri: contriStatus,
+            darkmode: darkStatus
+        }
+    }, () => {
+        // enable button when operation completes
+        darkBtn.disabled = false;
+    })
+});
+
+githubOpen = () => {
+    let newUrl = "https://github.com/bhumijgupta/Github-vanced"
+    chrome.tabs.create({
+        url: newUrl
+    });
+}
+
+githubBtn.addEventListener("click", () => {
+    githubOpen();
+})
