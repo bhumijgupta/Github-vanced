@@ -1,7 +1,7 @@
-![Github Contri Logo](/assets/icon_128.png)<br>
+![Github Vanced Logo](/assets/icon_128.png)<br>
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8fb8ceb65ea242c782704f77ea83da21)](https://www.codacy.com?utm_source=github.com&utm_medium=referral&utm_content=bhumijgupta/Github-contri&utm_campaign=Badge_Grade) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bhumijgupta/Github-contri.svg) ![GitHub issues](https://img.shields.io/github/issues/bhumijgupta/Github-contri.svg)![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bhumijgupta/Github-contri.svg)
 
-# Github Contri
+# Github Vanced
 
 Don't get distracted by contribution chart on GitHub. Color it all green!!<br>
 A chrome extension which changes your contribution chart to green. Just a measure to prevent distraction.
@@ -32,7 +32,7 @@ git clone https://github.com/bhumijgupta/Github-contri.git
 ## Future Goals
 
 - [x] Add toggle switch to enable and disable extension
-- [ ] Add Github Dark theme through the chrome extension
+- [x] Add Github Dark theme through the chrome extension
 
 ## Can I Contribute
 

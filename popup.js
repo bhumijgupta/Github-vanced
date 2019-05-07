@@ -1,5 +1,6 @@
 contriBtn = document.querySelector("#contri input");
 darkBtn = document.querySelector("#darkmode input");
+githubBtn = document.querySelector("button");
 var contriStatus = "disabled";
 var darkStatus = "disabled";
 
@@ -64,3 +65,14 @@ darkBtn.addEventListener("click", () => {
         darkBtn.disabled = false;
     })
 });
+
+githubOpen = () => {
+    let newUrl = "https://github.com/bhumijgupta/Github-vanced"
+    chrome.tabs.create({
+        url: newUrl
+    });
+}
+
+githubBtn.addEventListener("click", () => {
+    githubOpen();
+})

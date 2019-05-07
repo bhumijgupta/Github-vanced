@@ -396,6 +396,36 @@ function enableTheme() {
         "}" +
         ".input-contrast:focus {" +
         "background-color: #42474b;" +
+        "}" +
+        ".Subhead-description {" +
+        "color: #CCC;" +
+        "}" +
+        ".reponame-suggestion {" +
+        "color: #0366d6;" +
+        "}" +
+        ".form-checkbox .note {" +
+        "color: #ccc;" +
+        "}" +
+        ".owner-reponame .slash {" +
+        "color: #fff;" +
+        "}" +
+        ".note {" +
+        "color: #ccc;" +
+        "}" +
+        ".form-group .form-control {" +
+        "background-color: #444d56;" +
+        "}" +
+        ".form-group .form-control:focus {" +
+        "background-color: #444d56;" +
+        "}" +
+        ".page-new-repo .octicon-repo {" +
+        "color: #fff;" +
+        "}" +
+        ".page-new-repo .color-private-icon {" +
+        "color: #d2a81e;" +
+        "}" +
+        ".markdown-body h1 .octicon-link, .markdown-body h2 .octicon-link, .markdown-body h3 .octicon-link, .markdown-body h4 .octicon-link, .markdown-body h5 .octicon-link, .markdown-body h6 .octicon-link {" +
+        "color: #fff;" +
         "}"
 
 
