@@ -45,7 +45,6 @@ contriBtn.addEventListener("click", () => {
 darkBtn.addEventListener("click", () => {
     // disable toggle untill operation completes
     darkBtn.disabled = true;
-
     // toggle states
     if (darkStatus === "enabled") {
         darkBtn.checked = false;
