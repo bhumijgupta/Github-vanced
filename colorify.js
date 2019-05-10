@@ -12,7 +12,7 @@ function colorify() {
 function checkUser() {
     var btn = document.querySelector(".js-profile-editable-edit-button");
     // Check if it is the user profile by checking Edit profile button
-    if (btn && btn.textContent === "Edit") {
+    if (btn && btn.textContent === "Edit profile") {
         colorify();
     }
 }
