@@ -3,17 +3,18 @@
 
 # Github Vanced
 
-An ultimate browser extension to customize and streamline your GitHub experience with a lifetime promise of no ads and no data collection.
+An ultimate chrome extension to customize and streamline your GitHub experience with a lifetime promise of **no ads** and **no data collection**<br>
+:star:[Link to Chrome Webstore]():star:
+
+## Demo
+
+![/assets/demo.gif](/assets/demo.gif)
 
 ## Features
 
 - Website wide dark mode
 - Colors contribution chart to avoid distraction
 - Easy toggle switches to enable and disable features
-
-## Demo
-
-![/assets/demo.gif](/assets/demo.gif)
 
 ## Future Goals
 
@@ -36,9 +37,9 @@ git clone https://github.com/bhumijgupta/Github-contri.git
 5. Navigate inside the clone repo and select OK
 6. **Voila** The extension is loaded!
 
-## Can I Contribute
+## Can I Contribute?
 
-I would be thrilled to see a Pull Request from someone.<br>
+I would be thrilled to see a Pull Request from someone.:raised_hands:<br>
 Also open for **issues** and **feature requests**<br>
 
 ### Steps to contribute
@@ -46,6 +47,6 @@ Also open for **issues** and **feature requests**<br>
 1. Open an issue [here](/issues)
 2. Fork the Repo
 3. Make changes
-4. Open Pull Request
+4. Open Pull Request :heart_eyes:
 
 **Made with :heart: by Bhumij Gupta**
