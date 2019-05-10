@@ -22,6 +22,7 @@ An ultimate chrome extension to customize and streamline your GitHub experience 
 - [x] Add Github Dark theme through the chrome extension
 - [ ] Enable `No-Reload` functionality when toggling dark mode
 - [ ] Resolve all bugs and launch stable version
+- [ ] Create CHANGELOG.md
 
 ## Developer Installation
 
