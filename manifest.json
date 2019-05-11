@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Github Contri (beta)",
-    "description": "Don't get distracted by contribution chart on GitHub. Color it all green",
-    "version": "1.1.9",
+    "name": "Github Vanced (beta)",
+    "description": "Advanced features for GitHub. Thank you for supporting!",
+    "version": "0.8.0",
     "author": "Bhumij Gupta",
     "icons": {
         "16": "assets/icon_16.png",
