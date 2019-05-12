@@ -1,10 +1,10 @@
-![Github Vanced Logo](/assets/icon_128.png)<br>
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9640b1268d824af28ddc916b8f03f2a1)](https://www.codacy.com/app/bhumijgupta/Github-vanced?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bhumijgupta/Github-vanced&amp;utm_campaign=Badge_Grade) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bhumijgupta/github-vanced.svg) ![GitHub issues](https://img.shields.io/github/issues/bhumijgupta/Github-vanced.svg) ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bhumijgupta/Github-vanced.svg)
+![Github Vanced Logo](/assets/logo_readme.png)<br>
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9640b1268d824af28ddc916b8f03f2a1)](https://www.codacy.com/app/bhumijgupta/Github-vanced?utm_source=github.com&utm_medium=referral&utm_content=bhumijgupta/Github-vanced&utm_campaign=Badge_Grade) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bhumijgupta/github-vanced.svg) ![GitHub issues](https://img.shields.io/github/issues/bhumijgupta/Github-vanced.svg) ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/bhumijgupta/Github-vanced.svg)
 
 # Github Vanced
 
 An ultimate chrome extension to customize and streamline your GitHub experience with a lifetime promise of **no ads** and **no data collection**<br>
-:star:[Link to Chrome Webstore]():star:
+:star:[Link to download extension](https://chrome.google.com/webstore/detail/github-vanced-beta/apidmenkobkfjiffjmapgjdapmpaneck):star:
 
 ## Demo
 
