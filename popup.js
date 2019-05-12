@@ -62,7 +62,7 @@ darkBtn.addEventListener("click", () => {
     }, () => {
         // enable button when operation completes
         darkBtn.disabled = false;
-    })
+    });
 });
 
 githubOpen = () => {

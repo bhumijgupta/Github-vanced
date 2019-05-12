@@ -504,7 +504,7 @@ function enableTheme() {
         .gh-header .gh-header-sticky.is-stuck+.gh-header-shadow {
         background-color: #343a3f;
         }
-        `
+        `;
 
 
     let head = document.querySelector("head");
