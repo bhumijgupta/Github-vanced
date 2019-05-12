@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Github Vanced (beta)",
-    "description": "Advanced features for GitHub. Thank you for supporting!",
+    "description": "An ultimate chrome extension to customize and streamline your GitHub experience!",
     "version": "0.8.0",
     "author": "Bhumij Gupta",
     "icons": {

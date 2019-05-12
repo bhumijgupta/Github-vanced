@@ -1,6 +1,6 @@
-contriBtn = document.querySelector("#contri input");
-darkBtn = document.querySelector("#darkmode input");
-githubBtn = document.querySelector("button");
+var contriBtn = document.querySelector("#contri input");
+var darkBtn = document.querySelector("#darkmode input");
+var githubBtn = document.querySelector("button");
 var contriStatus = "disabled";
 var darkStatus = "disabled";
 
@@ -66,12 +66,12 @@ darkBtn.addEventListener("click", () => {
 });
 
 githubOpen = () => {
-    let newUrl = "https://github.com/bhumijgupta/Github-vanced"
+    let newUrl = "https://github.com/bhumijgupta/Github-vanced";
     chrome.tabs.create({
         url: newUrl
     });
-}
+};
 
 githubBtn.addEventListener("click", () => {
     githubOpen();
-})
+});

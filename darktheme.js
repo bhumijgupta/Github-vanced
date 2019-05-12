@@ -436,7 +436,75 @@ function enableTheme() {
         }
         .jump-to-suggestions-path .jump-to-octicon {
         color: #fff;
-        }`
+        }
+        table.files td .simplified-path {
+        color: #0366d6;
+        }
+        table.files td.message a {
+        color: #0366d6;
+        }
+        .timeline-comment.current-user {
+        border-color: #353c44;
+        }
+        .timeline-comment {
+        background-color: #343a40;
+        border-color: #353c44;
+        }
+        .gh-header-meta {
+        border-bottom-color: #353c44;
+        }
+        .timeline-comment-header {
+        color: #ffffff;
+        }
+        .discussion-item-header {
+        color: #cccccc;
+        }
+        .discussion-item-entity {
+        color: #cccccc;
+        }
+        .timeline-comment.current-user .timeline-comment-header {
+        border-bottom-color: #24292e;
+        background-color: #343a3f;
+        }
+        .timeline-comment-header {
+        border-bottom: 1px solid #24292e;
+        }
+        .timeline-comment-wrapper {
+        border-top-color: #fff0;
+        border-bottom-color: #fff0;
+        }
+        .discussion-item+.discussion-item, .discussion-item-review+.discussion-item {
+        border-top-color: #343a3f;
+        }
+        .discussion-timeline-actions {
+        background-color: #24292e;
+        border-top-color: #24292e;
+        }
+        .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
+        background: #343a3f;
+        }
+        .tabnav {
+        border-bottom-color: #24292e;
+        }
+        .toolbar-item {
+        color: #fff;
+        }
+        .protip code {
+        background-color: #41464a;
+        }
+        .tabnav-tab {
+        color: #cccccc;
+        }
+        .tabnav-tab:focus, .tabnav-tab:hover {
+        color: #ffffff;
+        }
+        .toolbar-item .menu-target {
+        color: #ffffff;
+        }        
+        .gh-header .gh-header-sticky.is-stuck+.gh-header-shadow {
+        background-color: #343a3f;
+        }
+        `
 
 
     let head = document.querySelector("head");
