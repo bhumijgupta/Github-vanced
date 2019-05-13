@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Github Vanced (beta)",
   "description": "An ultimate chrome extension to customize and streamline your GitHub experience!",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "author": "Bhumij Gupta",
   "icons": {
     "16": "assets/icon_16.png",
@@ -14,13 +14,11 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-  "content_scripts": [
-    {
-      "matches": ["http://github.com/*", "https://github.com/*"],
-      "js": ["colorify.js", "darktheme.js"],
-      "run_at": "document_end"
-    }
-  ],
+  "content_scripts": [{
+    "matches": ["http://github.com/*", "https://github.com/*"],
+    "js": ["colorify.js", "darktheme.js"],
+    "run_at": "document_end"
+  }],
   "options_page": "popup.html",
   "browser_action": {
     "default_popup": "popup.html"
