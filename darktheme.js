@@ -511,6 +511,25 @@ function enableTheme() {
         background: #343a40;
         border-bottom-color: #24292e;
         }
+        .comment-reactions.has-reactions {
+        border-top-color: #24292e;
+        }
+        .reaction-summary-item {
+        border-right-color: #24292e;
+        }
+        .tabnav-pr .tabnav-tab {
+        color: #ffffff;
+        }
+        .timeline-commits .commit-message>code a {
+        color: #ffffff;
+        }
+        .branch-action-body {
+        background-color: #343a3f;
+        border-color: #d1d5da
+        }
+        .status-meta {
+        color: #ffffff;
+        }
         `;
 
 
