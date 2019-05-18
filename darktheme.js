@@ -530,6 +530,28 @@ function enableTheme() {
         .status-meta {
         color: #ffffff;
         }
+        .Label--outline {
+        color: #ffffff;
+        }
+        .pagehead-actions>li {
+        color: #ffffff;
+        }
+        .copyable-terminal {
+        color: #24292e;
+        }
+        .tabnav-tab:focus, .tabnav-tab:hover {
+        color: #24292e;
+        }
+        .bg-gray-light {
+        background-color: #24292e!important;
+        }
+        .merge-pr-more-commits {
+        color: #ffffff;
+        }
+        .signed-commit-header {
+        background-color: #343a3e;
+        border-bottom: 1px solid #444d55;
+        }
         `;
 
 
