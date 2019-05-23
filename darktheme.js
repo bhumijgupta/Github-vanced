@@ -552,6 +552,15 @@ function enableTheme() {
         background-color: #343a3e;
         border-bottom: 1px solid #444d55;
         }
+        .discussion-item-ref-title .title-link {
+        color: #ffffff;
+        }
+        .Box-row--hover-blue:hover {
+        background-color: #24292e !important;
+        }
+        .btn-outline:hover {
+        background-color: aliceblue;
+        }
         `;
 
 
