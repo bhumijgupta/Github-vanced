@@ -561,6 +561,41 @@ function enableTheme() {
         .btn-outline:hover {
         background-color: aliceblue;
         }
+        .orghead {
+        background-color: #343a40;
+        border-bottom: 1px solid #24292e;
+        color: #fff;
+        }
+        .org-name {
+        color: #fff;
+        }
+        .pagehead-tabs-item.selected {
+        background-color: #343a40;
+        border-color: #0366d6 #343a40 transparent;
+        color: #fff;
+        }
+        .pagehead-tabs-item {
+        color: #ccc;
+        }
+        .pagehead-tabs-item .Counter {
+        color: #ccc;
+        }
+        .pagehead-tabs-item .octicon {
+        color: #ccc;
+        }
+        .pagehead-tabs-item:hover {
+        color: #fff;
+        }
+        .email-format .email-quoted-reply, .email-format .email-signature-reply {
+        color: #ccc;
+        }
+        .discussion-item .renamed-is, .discussion-item .renamed-was {
+        color: #fff;
+        }
+        .merge-status-item {
+        background-color: #343a3f;
+        border-bottom: none;
+        }
         `;
 
 
