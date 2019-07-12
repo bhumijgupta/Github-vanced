@@ -596,6 +596,34 @@ function enableTheme() {
         background-color: #343a3f;
         border-bottom: none;
         }
+        .commit-group-title {
+        color: #ffffff;
+        }
+        .signed-commit-signer-name .signer {
+        color: #ffffff;
+        }
+        .commit .commit-title a {
+        color: #0366d6;
+        }
+        .discussion-item-ref-title .issue-num {
+        color: #e6ebf1;
+        }
+        .task-progress {
+        color: #ffffff;
+        }
+        .file-header {
+        background-color: #444d56;
+        border-bottom: 1px solid #444d56;
+        }
+        .pr-toolbar {
+        background-color: #24292e
+        }
+        .diffbar {
+        background-color: #24292e
+        }
+        #diff-1 > div.js-file-content.Details-content--hidden > div > table > tbody {
+        background-color: #ffffff
+        }
         `;
 
 
