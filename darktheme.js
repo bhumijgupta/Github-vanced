@@ -1,7 +1,6 @@
-function enableTheme() {
-    let style = document.createElement("style");
-    style.innerHTML =
-        `.bg-white {
+const enableTheme = () => {
+  let style = document.createElement("style");
+  style.innerHTML = `.bg-white {
         background-color: #24292e !important;
         }
         body {
@@ -626,17 +625,16 @@ function enableTheme() {
         }
         `;
 
+  let head = document.querySelector("head");
+  head.append(style);
+};
 
-    let head = document.querySelector("head");
-    head.append(style);
-}
-
-function checkStatus() {
-    chrome.storage.sync.get(["config"], (result) => {
-        if (result.config.darkmode === "enabled") {
-            enableTheme();
-        }
-    });
-}
+const checkStatus = () => {
+  chrome.storage.sync.get(["config"], result => {
+    if (result.config.darkmode === "enabled") {
+      enableTheme();
+    }
+  });
+};
 
 checkStatus();
