@@ -623,13 +623,16 @@ const enableTheme = () => {
         #diff-1 > div.js-file-content.Details-content--hidden > div > table > tbody {
         background-color: #ffffff
         }
+        p{
+            color:#ffffff
+        }
         `;
 
   let head = document.querySelector("head");
   head.append(style);
 };
 
-const checkStatus = () => {
+const checkStatus_ = () => {
   chrome.storage.sync.get(["config"], result => {
     if (result.config.darkmode === "enabled") {
       enableTheme();
@@ -637,4 +640,4 @@ const checkStatus = () => {
   });
 };
 
-checkStatus();
+checkStatus_();
